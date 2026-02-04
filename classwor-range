@@ -1,0 +1,7 @@
+start_month = int(input())
+stop_month = int(input())
+
+
+
+for m in range(start_month, stop_month+1, 2):
+    print(f"Month selected: {m}")
