@@ -1,0 +1,7 @@
+months_max = int(input())
+
+print("Months passed:", end=" ")
+
+for curr_month in range(months_max,0, -1):
+    print(curr_month, end=" ")
+print()
