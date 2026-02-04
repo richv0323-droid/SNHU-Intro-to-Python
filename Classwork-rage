@@ -1,0 +1,8 @@
+catalog_low = int(input())
+catalog_high = int(input())
+
+print("Catalog numbers:", end=" ")
+
+for i in range(catalog_low, catalog_high):
+    print(i, end=" ")
+print()
